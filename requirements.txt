@@ -1,0 +1,21 @@
+# --- BACKEND DEPENDENCIES ---
+express==4.18.2
+cors==2.8.5
+dotenv==16.0.3
+multer==1.4.5-lts.1
+pdf-parse==1.1.1
+@google/generative-ai==0.1.0
+pg==8.11.0
+bcrypt==5.1.0
+jsonwebtoken==9.0.0
+
+# --- FRONTEND DEPENDENCIES ---
+react==18.2.0
+axios==1.4.0
+react-router-dom==6.11.2
+
+# --- SYSTEM & CLOUD ---
+Node.js: >=18.x
+Database: Supabase (PostgreSQL)
+AI: Google Gemini 3 Flash API
+Deployment: Render & Vercel
